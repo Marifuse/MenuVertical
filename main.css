@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+nav {
+  width: 200px;
+}
+ul {
+  list-style: none; /*Borra los puntos que generan las listas*/
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+li {
+  background-color: #f5f5f0;
+}
+a {
+  display: block;
+  text-decoration: none; /*Borra lineas que salen por defecto en los links*/
+  padding-left: 10px;
+  color: #000000;
+}
+ul li:first-child {
+  background-color: #f9a91a;
+}
+a:hover { /*Hover sirve para cambiar su forma (color) cuando se pasa el mouse por encima del elemento)*/
+  background-color: #e0e0d1;
+}
+ul li:first-child a {
+  color: white;
+}
+a:active {
+  background-color: #333333;
+  color: white;
+}
+ul li:first-child a:active { /*Active sirve para que cuando el link entre en acción con un click, sus letras cambien de color*/
+  color: white;
+
+/*Contenedores outline (Guías de medida visibles):
+1px solid black;
+outline: 1px solid black;
+outline: 1px solid black;*/
